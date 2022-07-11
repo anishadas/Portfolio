@@ -47,14 +47,60 @@
             left: 35%;
             align-items: center;
         }
+
+        input,
+        select {
+            width: 40%;
+            padding: 5px;
+            margin: 10px;
+            font-size: 1em;
+            border: 1px solid lightgrey;
+            border-radius: 4px;
+            display: inline-block;
+            box-sizing: border-box;
+        }
+
+        textarea {
+            width: 90%;
+            height: 100px;
+            padding: 15px;
+            margin: 10px;
+            border: 1px solid lightgrey;
+            border-radius: 4px;
+            display: inline-block;
+            box-sizing: border-box;
+            resize: none;
+        }
+
+        button {
+            width: 30%;
+            background-color: #ccd680;
+            color: rgb(120, 16, 16);
+            cursor: pointer;
+            padding: 10px;
+            border-radius: 4px;
+            font-size: 1.5em;
+            font-weight: 700;
+            border: none;
+            position: relative;
+            left: 35%;
+        }
+
+        button:hover {
+            cursor: pointer;
+            background-color: #7d882a;
+        }
     </style>
 </head>
 
 <body>
-    <div style="height:160px; background-image: url(https://png.pngtree.com/background/20210709/original/pngtree-spices-background-picture-image_575406.jpg);background-position: center;background-repeat: repeat;background-size: contain;">
+    <div
+        style="height:160px; background-image: url(https://png.pngtree.com/background/20210709/original/pngtree-spices-background-picture-image_575406.jpg);background-position: center;background-repeat: repeat;background-size: contain;">
         <div class="img1">
-            <h1 style="font-size:3em;color:white;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">Anisha's Recipe Book</h1>
-            <img style="border:2px solid red;border-radius: 50%;" src=https://st.depositphotos.com/1026166/3160/v/600/depositphotos_31605339-stock-illustration-restaurant-food-quality-badge.jpg"
+            <h1 style="font-size:3em;color:white;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">
+                Anisha's Recipe Book</h1>
+            <img style="border:2px solid red;border-radius: 50%;"
+                src=https://st.depositphotos.com/1026166/3160/v/600/depositphotos_31605339-stock-illustration-restaurant-food-quality-badge.jpg"
                 height="120" width="120">
         </div>
     </div>
@@ -234,62 +280,83 @@
 
     <h1>More Awesome Indian Street Food</h1>
     <div style="display:flex; flex-direction:row;justify-content: space-around;">
-        <figure>
-            <img style="border-radius: 5px;"
-                src="https://www.vegrecipesofindia.com/wp-content/uploads/2013/11/samosa-0-280x280.jpg" height="170"
-                width="180">
-            <figcaption><b><em>Indian Samosa Recipe</em></b></figcaption>
-        </figure>
-        <figure>
-            <img style="border-radius: 5px;"
-                src="https://www.vegrecipesofindia.com/wp-content/uploads/2021/05/sev-puri-1-280x280.jpg" height="170"
-                width="180">
-            <figcaption><b><em>Papdi Chaat Recipe</em></b></figcaption>
-        </figure>
-        <figure>
-            <img style="border-radius: 5px;"
-                src="https://www.vegrecipesofindia.com/wp-content/uploads/2021/04/pav-bhaji-1-280x280.jpg" height="170"
-                width="180">
-            <figcaption><b><em>Pav Bhaji|Mumbai famous|Recipe</em></b></figcaption>
-        </figure>
-        <figure>
-            <img style="border-radius: 5px;"
-                src="https://www.vegrecipesofindia.com/wp-content/uploads/2010/08/pani-puri-recipe-280x280.jpg"
-                height="170" width="180">
-            <figcaption><b><em>PaniPuri Recipe</em></b></figcaption>
-        </figure>
+        <a href="https://www.indianhealthyrecipes.com/samosa-recipe-make-samosa/" target="_blank">
+            <figure>
+                <img style="border-radius: 5px;"
+                    src="https://www.vegrecipesofindia.com/wp-content/uploads/2013/11/samosa-0-280x280.jpg" height="170"
+                    width="180">
+                <figcaption><b><em>Indian Samosa Recipe</em></b></figcaption>
+            </figure>
+        </a>
+        <a href="https://foodviva.com/snacks-recipes/papdi-chaat/" target="_blank">
+            <figure>
+                <img style="border-radius: 5px;"
+                    src="https://www.vegrecipesofindia.com/wp-content/uploads/2021/05/sev-puri-1-280x280.jpg"
+                    height="170" width="180">
+                <figcaption><b><em>Papdi Chaat Recipe</em></b></figcaption>
+            </figure>
+        </a>
+        <a href="https://www.indianhealthyrecipes.com/pav-bhaji-recipe-how-to-make-pav-bhaji-step-by-step-pictures/" target="_blank">
+            <figure>
+                <img style="border-radius: 5px;"
+                    src="https://www.vegrecipesofindia.com/wp-content/uploads/2021/04/pav-bhaji-1-280x280.jpg"
+                    height="170" width="180">
+                <figcaption><b><em>Pav Bhaji|Mumbai famous|Recipe</em></b></figcaption>
+            </figure>
+        </a>
+        <a href="https://www.vegrecipesofindia.com/pani-puri-recipe-mumbai-pani-puri-recipe/" target="_blank">
+            <figure>
+                <img style="border-radius: 5px;"
+                    src="https://www.vegrecipesofindia.com/wp-content/uploads/2010/08/pani-puri-recipe-280x280.jpg"
+                    height="170" width="180">
+                <figcaption><b><em>PaniPuri Recipe</em></b></figcaption>
+            </figure>
+        </a>
     </div>
     <hr>
     <div style="border:1px solid lightgray;margin-left: auto;margin-right: auto; width: 50%; background-color: beige;">
         <h2 style="text-align:center ;">Like What You See?</h2>
         <h3 style="text-align:center ;">Visit my profile for more updates.</h3>
         <div style="display:flex; flex-direction:row;justify-content: space-around;">
-        <a href="https://in.linkedin.com/">
-            <figure>
-                <img src="https://www.savvybusinessgals.com/wp-content/uploads/2016/09/linkedin-logo-dublin.png"
-                    height="50" width="50">
-                <figcaption><b>linkedin</b></figcaption>
-            </figure>
-        </a>
-        <a href="https://www.facebook.com/">
-            <figure>
-                <img src="https://i0.wp.com/books2africa.org/wp-content/uploads/2020/07/Facebook-logo.png?ssl=1"
-                    height="50" width="50">
-                <figcaption><b>Facebook</b></figcaption>
-            </figure>
-        </a>
+            <a href="https://in.linkedin.com/">
+                <figure>
+                    <img src="https://www.savvybusinessgals.com/wp-content/uploads/2016/09/linkedin-logo-dublin.png"
+                        height="50" width="50">
+                    <figcaption><b>linkedin</b></figcaption>
+                </figure>
+            </a>
+            <a href="https://www.facebook.com/">
+                <figure>
+                    <img src="https://i0.wp.com/books2africa.org/wp-content/uploads/2020/07/Facebook-logo.png?ssl=1"
+                        height="50" width="50">
+                    <figcaption><b>Facebook</b></figcaption>
+                </figure>
+            </a>
         </div>
     </div>
-    <p style="background-color:rgb(124, 231, 231);font-size:1.5em;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;color: blue;font-weight: 500;">Get My Secrets to great Indian food,
-    Sign up below for free beginners guide to delicious Indian cooking:</p>
-    <form style="background-color:rgb(124, 231, 231) ;">
-       <label for="name">Your Name:</label>
-       <input type="text" name="name" id="name" placeholder="Type your name">
-       <label for="mail">Email Id:</label>
-       <input type="email" name="mail" id="mail" placeholder="xyz@gmail.com">
-       <textarea>Any Suggestions:</textarea>
-       <button>Submit</button>
-    </form>
+    <p
+        style="background-color:rgb(124, 231, 231);font-size:1.5em;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;color: blue;font-weight: 500;">
+        Get My Secrets to great Indian food,
+        Sign up below for free beginners guide to delicious Indian cooking:
+    </p>
+    <div style="padding:40px;width: 80%; background-color: #f2f2f2; margin-left: auto; margin-right: auto;">
+        <form action="/action_page.php">
+            <div><label for="name">Your Name:</label></div>
+            <input type="text" name="name" id="name" placeholder="Type your name...">
+            <br>
+            <div><label for="mail">Email Id:</label></div>
+            <input type="email" name="mail" id="mail" placeholder="xyz@gmail.com">
+            <div><label for="country">Country</label></div>
+            <select id="country" name="country">
+                <option value="india">India</option>
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+            </select>
+            <textarea>Any Suggestions:</textarea>
+            <button>Submit</button>
+        </form>
+    </div>
 </body>
 
 </html>
