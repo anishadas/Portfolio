@@ -1,3 +1,23 @@
+.heading{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aqua;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 10px red ;
+    background-color: black;
+    padding: 5px;
+    border-radius: 4px;
+    margin:15px auto 30px auto;
+    font-size: 25px;
+    width: 100%;
+}
+p{
+    margin: 0px 20px 0px 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 8px;
+    font-size: 15px;
+    line-break: auto;
+}
 .container{
     display: flex;
     flex-direction: column;
@@ -5,7 +25,7 @@
 }
 .header{
     position: relative;
-    height:70%;
+    height:510px;
     width: 100%;
 }
 .header .img-bg{
@@ -21,11 +41,14 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    height: 510px;
 }
 .head-container ul li{
     display: inline-block;
     list-style-type: none;
     margin-right: 10px;
+    position: relative;
+    top: 25px;
 }
 .head-container  ul li a{
     text-decoration: none;
@@ -43,4 +66,138 @@
 }
 .head-container .social{
     margin-top: 20px;
+}
+section{
+    margin: 0px 20px 0px 20px;
+    padding: 0px 10px 0px 10px;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    width:80% ;
+    margin: 0px auto 0px auto;
+}
+.line{
+    width: 90%;
+    border: 1px solid rgb(116, 64, 64);
+    margin: 20px auto 20px auto;
+}
+.content .details{
+    position: relative;
+    left: 150px;
+}
+.content .year{
+    position: relative;
+    top: 10px;
+    font-style: italic;
+}
+.content p{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 15px;
+    padding: 5px 0px 0px 0px;
+}
+.content .degree p{
+    font-style: italic;
+    font-family:'Times New Roman', Times, serif;
+    font-size: ;
+    
+}
+#Experience .timeline{
+    position: relative;
+    width: 85%;
+    margin: 0px auto 0px auto;
+}
+.timeline-box{
+    position: relative;
+    margin: 15px 10px 5px 10px;
+    width: 46%;
+    padding-top: 15px;
+    border: 5px groove lightblue;
+    border-radius: 10px;
+}
+.timeline-box:nth-child(2n){
+    left: 54%;
+}
+.timeline-box:nth-child(2n+1)::after{
+    content: "";
+    border-radius: 55%;
+    background-color: lightgrey;
+    height: 1rem;
+    width: 1rem;
+    position: absolute;
+    top:10%;
+    right: -9.9%;
+    z-index: 1;
+}
+.timeline-box:nth-child(2n)::before{
+    content: "";
+    border-radius: 55%;
+    background-color: lightgray;
+    height: 1rem;
+    width: 1rem;
+    position:absolute;
+    top:10%;
+    left:-11.1%;
+    z-index: 1;
+}
+.timeline-box i{
+    font-size: 2.5em;
+    position: relative;
+    bottom:185px;
+    left: 5px;
+    color: #2857a4;
+}
+#Experience .timeline-box p{
+    position: relative;
+    left: 35px;
+
+} 
+.timeline-divider{
+    height: 77%;
+    position: absolute;
+    left: 51.14%;
+    top: 4%;
+    width: 0;
+    border-left: 4px dashed #0096fa6b;
+}
+.timeline-icon{
+    font-size: 2em;
+    transform: rotate(90deg);
+    position:sticky;
+    color: #2857a4;
+    z-index: 2;
+}
+#Skills .all-skills{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: aliceblue;
+    width: 60%;
+    height: 200px;
+    margin: 5px auto 5px auto;
+    padding: 30px;
+}
+.skills-display{
+    width: 180px;
+    height: 30px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    border: 2px groove black;
+    padding: 0px;
+    box-shadow: 0px 0px 3px 1px rgb(151, 151, 183);
+}
+.skills-display .level{
+    height: 30px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius:20px;
+}
+.skills-display .skill-name{
+    position: relative;
+    bottom: 33px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    text-decoration: solid;
+
 }
